@@ -1,0 +1,150 @@
+body {
+  background-color: #260d26;
+}
+  
+a {
+  text-decoration: none;
+}
+
+  /*  Navigation Bar  */
+    
+#navbar {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  /*position: fixed;*/
+  top: 0;
+  left: 0;
+  background-color: #260d26;
+  height: 75px;
+}
+  
+#navbar ul {
+  display: flex;
+  list-style: none;
+}
+  
+.nav_bar_elements {
+  display: block;
+  padding: 10px 30px 10px 30px;
+  font-family: 'Tourney', cursive;
+  font-size: 25px;
+  color: white;
+  height: auto;
+  align-self: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+  
+.nav_bar_links:hover {
+    background-image: linear-gradient(-45deg, #ebc6a3, #d8b887a4);
+    color: #260d26;
+}
+
+#about {
+    position: relative;
+    width: 75%;
+    justify-self: center;
+}
+
+#living_room {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#page_title {
+  position: absolute;
+  left: 30%;
+  top: 10%;
+  width: 40%;
+  font-family: 'Tourney', cursive;
+  font-size: 45px;
+  color: #260d26;
+}
+
+#bio {
+  position: absolute;
+  left: 19%;
+  bottom: 11%;
+  width: 60%;
+  border-style: ridge;
+  border-color: black;
+  background-color: #260d26;
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+#band-link {
+  color: #ffa64d;
+}
+
+/*  Project Section  */
+    
+#projects {
+  display: flex;
+}
+
+#web-dev {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#data-science {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#web-dev-header {
+  font-size: 30px;
+  font-family: 'Tourney', cursive;
+  margin: auto;
+  color: white;
+}
+
+#data-science-header {
+  font-size: 30px;
+  font-family: 'Tourney', cursive;
+  margin: auto;
+  color: white;
+}
+
+#section-header {
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  font-family: 'Tourney', cursive;
+  color: white;
+}
+
+
+
+.project-grid {
+  display: flex;
+  
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 40%;
+  margin: auto;
+}
+
+#projects p {
+  color: white;
+  font-size: 30px;
+}
+
+.project-tile {
+  padding-top: 20px;
+  text-align: center;
+  width: 100%;
+  align-self: center;
+  margin: 10px;
+}
+
+.project-tile:hover {
+  background-image: linear-gradient(-45deg, #ebc6a3, #d8b887a4);
+}
