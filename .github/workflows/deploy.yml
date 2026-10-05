@@ -35,6 +35,11 @@ jobs:
 
       - name: Build site
         run: npm run build
+      
+      - name: Inspect build output
+        run: |
+          echo "=== DIST ==="
+          find dist -maxdepth 3 -type f | sort
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
